@@ -3,42 +3,42 @@
 /* `h2` */
 
 .xmodule_display.xmodule_HtmlModule h2 {
-  font-weight: 900;
-  font-size: 2.125em;
-  line-height: 1.2;
-  color: #333;
-  margin-top: 0;
-  margin-bottom: .5em;
+  font-weight: 900 !important;
+  font-size: 2.125em !important;
+  line-height: 1.2 !important;
+  color: #333 !important;
+  margin-top: 0 !important;
+  margin-bottom: .5em !important;
 }
 
 .xmodule_display.xmodule_HtmlModule p + h2 {
-  margin-top: 1em;
+  margin-top: 1em !important;
 }
 
 /* `h2 a.download` */
 
 .xmodule_display.xmodule_HtmlModule h2 a.download {
-  font-weight: inherit;
-  color: inherit;
-  text-decoration: none;
+  font-weight: inherit !important;
+  color: inherit !important;
+  text-decoration: none !important;
 }
 
 .xmodule_display.xmodule_HtmlModule h2 a.download:after {
-  display: block;
+  display: block !important;
   content: "Download ⇣";
-  font-size: 60%;
-  color: #f8971d;
-  margin-top: -.25em;
-  margin-bottom: -.4em;
+  font-size: 60% !important;
+  color: #f8971d !important;
+  margin-top: -.25em !important;
+  margin-bottom: -.4em !important;
 }
 
 .xmodule_display.xmodule_HtmlModule h2 a.download:hover:after {
-  text-decoration: underline;
+  text-decoration: underline !important;
 }
 
 /* `p` */
 
 section.course-content .xmodule_display.xmodule_HtmlModule p {
-  font: 1.2em "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: .75em 0;
+  font: 1.2em "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  margin: .75em 0 !important;
 }
