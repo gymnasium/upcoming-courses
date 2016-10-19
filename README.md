@@ -11,3 +11,4 @@ This repo serves as cms for some of the static content on our Open EdX site.  Co
 - `about.html` static page content to appear on [about page](https://thegymnasium.com/about).
 - `static-pages-sidebar-content.html` appears on the right hand side of faq/about pages on thegymnasium.com.
 - `privacy-policy.html` content which appears on the [privacy policy](https://thegymnasium.com/privacy) page on thegymnasium.com.
+- `final-exam-modal.html` content which appears when the exam score is calculated.
