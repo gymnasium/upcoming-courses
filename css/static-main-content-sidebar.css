@@ -9,9 +9,9 @@
 
 @media (min-width: 62em) {
 
-.col-md-9 {
- border-right: 1px dashed #ccc;
-}
+  .col-md-9 {
+    border-right: 1px dashed #ccc;
+  }
 
 }
 
@@ -66,8 +66,20 @@
 /* sidebar / static */
 
 .sidebar-static {
- padding: 1.2em 1.2em 2.6em;
- margin: -1em -2.2em -2em -.8em;
+ padding: 0 1.2em 2.6em;
+
+ margin: 1.2em -.8em -2em;
+}
+
+@media (min-width: 62em) {
+
+  .sidebar-static {
+    padding-top: 1.2em;
+    border-right: 1px dashed #ccc;
+    margin-top: -1.2em;
+    margin-right: -2.2em;
+  }
+
 }
 
 .sidebar-static h1 {
