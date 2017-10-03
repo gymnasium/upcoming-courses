@@ -229,6 +229,10 @@
   display: block;
   }
 
+.featured-course figure img {
+  max-width: 100%;
+  }
+
 }
 
 @supports (display: grid) {
@@ -271,6 +275,10 @@
 
 .list-featured-courses {
   grid-template-columns: repeat(4, 1fr);
+  }
+
+.featured-course figure img {
+  max-width: 100%;
   }
 
 }
