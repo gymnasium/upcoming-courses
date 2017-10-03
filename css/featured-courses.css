@@ -75,7 +75,10 @@
   margin-bottom: 0;
   }
 
-.featured-course header h2 a {
+.featured-course header h2 a,
+.featured-course header h2 a:hover,
+.featured-course header h2 a:focus,
+.featured-course header h2 a:active {
   font: inherit;
   text-decoration: none;
   }
