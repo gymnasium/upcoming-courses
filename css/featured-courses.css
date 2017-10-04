@@ -99,11 +99,6 @@
   border: 1px solid #ccc;
   border-top: 0;
   border-radius: 0 0 3px 3px;
-  margin-left: -1px;
-  }
-
-.featured-course li:first-child .info > div{
-  margin-left: 0;
   }
 
 .featured-course .info dl {
@@ -182,6 +177,15 @@
 
 .list-featured-courses li:first-child {
   border-left: 0;
+  margin-left: 0;
+  }
+
+.featured-course .info div:first-child {
+  margin-left: -1px;
+  }
+
+.featured-course:first-child .info div:first-child,
+.featured-course:first-child .info div:nth-child(odd) {
   margin-left: 0;
   }
 
@@ -277,10 +281,6 @@
   grid-template-columns: repeat(4, 1fr);
   }
 
-.featured-course figure img {
-  max-width: 100%;
-  }
-
 }
 
 }
@@ -291,12 +291,12 @@
 .about-featured-courses .gym-button {
   display: inline-block;
   color: #fff;
-  width: auto !important; /* dangerous overrides */
+  width: auto !important; /* dangerous override */
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
   background: #f8971d;
-  padding: 1em 2em!important; /* dangerous overrides */
+  padding: 1em 2em!important; /* dangerous override */
   border: 0;
   border-radius: 2px;
   cursor: pointer;
