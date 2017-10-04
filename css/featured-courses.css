@@ -285,33 +285,21 @@
 
 }
 
-
 /* --- fix / to-do / gym-button --- */
 
+.list-featured-courses .gym-button,
 .about-featured-courses .gym-button {
   display: inline-block;
   color: #fff;
+  width: auto !important; /* dangerous overrides */
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
   background: #f8971d;
-  padding: 1em 2em;
+  padding: 1em 2em!important; /* dangerous overrides */
   border: 0;
   border-radius: 2px;
   cursor: pointer;
-  }
-
-.about-featured-courses .gym-button {
-  max-width: 20em;
-  }
-
-.about-featured-courses .gym-button:hover {
-  background: #a6a6a6;
-  }
-
-.about-featured-courses .gym-button:focus,
-.about-featured-courses .gym-button:active {
-  background: #939393;
   }
 
 .list-featured-courses .gym-button strong,
