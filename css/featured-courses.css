@@ -302,8 +302,8 @@
   cursor: pointer;
   }
 
-.list-featured-courses .gym-button strong,
-.about-featured-courses .gym-button strong {
+.list-featured-courses .gym-button b,
+.about-featured-courses .gym-button b {
   font: bold 1.4em/1.15 "brandon-grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #fff;
   letter-spacing: .02em;
