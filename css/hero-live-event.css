@@ -83,7 +83,7 @@
   border: 2px solid #fff;
   }
 
-.cta .gym-button strong {
+.cta .gym-button b {
   font: bold 1.4em/1.15 "brandon-grotesque", "Helvetica Neue", Helvetica, Arial, sans-serif;
   letter-spacing: .02em;
   vertical-align: baseline;
