@@ -44,6 +44,24 @@
   white-space: nowrap;
   }
 
+.header-blue-beanie s {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  }
+
+.header-blue-beanie s:after {
+  display: inline-block;
+  position: absolute;
+  top: 54%;
+  left: -11.5%;
+  content: "";
+  width: 120%;
+  border-top: .15em solid #f8971d;
+  margin-top: -.15em;
+  transform: rotate(10deg);
+  }
+
 @media (min-width: 62em) {
 
 .header-blue-beanie .group {
