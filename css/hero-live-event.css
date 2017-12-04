@@ -54,7 +54,8 @@
 
 .promo-live-event .cta {
   text-align: center;
-  padding: 1.4em 1.2em 4em;
+  padding: 1.6em 1.2em 4em;
+  clear: both;
   }
 
 .promo-live-event .cta .gym-button {
