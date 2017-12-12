@@ -1,5 +1,4 @@
 <!-- PRODUCTION PRODUCTION PRODUCTION -->
-
 <style>
 
 body .system-status-container {
@@ -28,7 +27,7 @@ body .system-status-container {
         <div class="system-status" id="system-status">
           <p>
             <strong>
-              We only have <span id="nn_days_count"></span> days left to save Net Neutrality. Do your part to <a href="https://www.battleforthenet.com/" target="_blank">help</a>.
+              Tuesday, December 12<sup>th</sup> is a day of action for Net Neutrality. Do your part to <a href="https://www.battleforthenet.com/" target="_blank">help</a>.
             </strong>
           </p>
         </div>
@@ -36,18 +35,3 @@ body .system-status-container {
     </div>
   </div>
 </div>
-
-<script>
-  $(function(){
-    today = new Date();
-
-    BigDay = new Date("December 14, 2017");
-    msPerDay = 24 * 60 * 60 * 1000 ;
-    timeLeft = (BigDay.getTime() - today.getTime());
-    e_daysLeft = timeLeft / msPerDay;
-    daysLeft = Math.floor(e_daysLeft);
-
-    const placeholder = document.getElementById('nn_days_count');
-    placeholder.innerHTML = daysLeft;
-  });
-</script>
