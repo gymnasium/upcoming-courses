@@ -93,6 +93,12 @@
   overflow: hidden;
   }
 
+/* hide views */
+
+.player[data-viewers] .player-streaminfo__viewers {
+  visibility: hidden;
+  }
+
 @media (min-width: 24em) {
 
 .twitch-chat {
