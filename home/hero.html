@@ -22,3 +22,14 @@
     </div>
   </div>
 </div>
+
+<script>
+  var iframe = document.getElementById('stream_embed');
+  var style = document.createElement('style');
+  style.textContent =
+    '.player[data-viewers] .player-streaminfo__viewers {' +
+    '  visibility: hidden;' +
+    '}'
+  ;
+  iframe.contentDocument.head.appendChild(style);
+</script>
