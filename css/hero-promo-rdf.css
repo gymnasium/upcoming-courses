@@ -90,8 +90,6 @@
 .hero-promo-rdf .container {
   width: 90%;
   max-width: 80em;
-  !border: 1px solid #000;
-  !overflow: hidden;
   margin: 0 auto;
   }
 
