@@ -67,7 +67,7 @@
   vertical-align: middle;
   background: #222;
   padding: 1em 2em !important; /* dangerous override */
-  border: 2px solid #fff;;
+  border: 2px solid #fff;
   border-radius: 2px;
   cursor: pointer;
   }
